@@ -132,3 +132,19 @@ sistem, tetapi pola hasilnya (exit status dan pesan log) tetap sama.
 Repository ini tidak berisi password, token, private key, atau data pribadi.
 File config/backup.conf dan folder logs/ di-ignore lewat .gitignore, hanya
 config/backup.conf.example
+
+## Batasan
+
+- Exit status 3, 4, dan 5 sudah ada di kode tetapi belum punya test otomatis
+- Belum ada penjadwalan cron dan rotasi arsip lama (rencana P12 sampai P15)
+
+## Kontribusi anggota
+
+- Diandra Farrel Adriansyah: Menulis lib/log.sh, config/backup.conf.example, .gitignore; membuat repo, tag, dan submit
+- Kenzi Alkhalid Syahputra: Menulis lib/arsip.sh (arsip, checksum, verifikasi, rollback); pengujian manual checksum
+- Rakha Zuhdi Naufal: Menulis bin/backup.sh (validasi parameter, exit status, error handling)
+- Prama Jeevanditya Setiaji: Menulis tests/test_backup.sh, mengumpulkan bukti pengujian, menulis README
+
+## Commit atau tag
+
+Tag: P2-CHECKPOINT-P11-v01
