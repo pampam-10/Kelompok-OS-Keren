@@ -1,0 +1,5 @@
+PASS - TC1 backup berhasil (exit 0)
+PASS - TC2 sumber tidak ada (exit 2)
+PASS - TC3 parameter tujuan kosong (exit 1)
+PASS - TC4 rollback tanpa arsip (exit 6)
+Log pengujian: /home/prama12345/Kelompok-OS-Keren-1/bukti/test.log

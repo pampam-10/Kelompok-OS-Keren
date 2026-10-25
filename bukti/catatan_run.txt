@@ -1,0 +1,21 @@
+### 1. Backup sukses
+[INFO] Mulai backup /home/prama12345/data_uji ke /home/prama12345/hasil_backup
+[INFO] Backup berhasil: /home/prama12345/hasil_backup/backup_data_uji_20261025_194706.tar.gz
+exit status: 0
+### 2. Sumber tidak ada
+[ERROR] Direktori sumber tidak ditemukan atau tidak bisa dibaca: /home/prama12345/folder_tidak_ada
+exit status: 2
+### 3. Parameter tujuan kosong
+[ERROR] Parameter tujuan (-d) wajib diisi
+exit status: 1
+### 4. Isi folder hasil
+backup_data_uji_20261025_194706.tar.gz
+backup_data_uji_20261025_194706.tar.gz.sha256
+### 5. Verifikasi checksum
+backup_data_uji_20261025_194706.tar.gz: OK
+### 6. Rollback
+[INFO] Rollback berhasil, arsip dihapus: /home/prama12345/hasil_backup/backup_data_uji_20261025_194706.tar.gz
+exit status: 0
+### 7. Rollback saat arsip sudah kosong
+[ERROR] Tidak ada arsip untuk di-rollback di /home/prama12345/hasil_backup
+exit status: 6

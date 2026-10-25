@@ -1,0 +1,5 @@
+2026-10-25 19:46:14 [INFO] Mulai backup /tmp/tmp.iVb4EphmDE/sumber ke /tmp/tmp.iVb4EphmDE/tujuan
+2026-10-25 19:46:14 [INFO] Backup berhasil: /tmp/tmp.iVb4EphmDE/tujuan/backup_sumber_20261025_194614.tar.gz
+2026-10-25 19:46:14 [ERROR] Direktori sumber tidak ditemukan atau tidak bisa dibaca: /tmp/tmp.iVb4EphmDE/tidak_ada
+2026-10-25 19:46:14 [ERROR] Parameter tujuan (-d) wajib diisi
+2026-10-25 19:46:14 [ERROR] Tidak ada arsip untuk di-rollback di /tmp/tmp.iVb4EphmDE/kosong
